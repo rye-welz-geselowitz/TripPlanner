@@ -1,0 +1,30 @@
+
+{% extends "layout.html" %}
+
+{% block content %}
+	<div id="optionsContainer">
+		<h3>Hotels:</h3>
+		<select>
+		  {% for hotel in hotels %}
+		  <option value="{{hotel.name}}">{{hotel.name}}</option>
+		  {% endfor %}
+		</select>
+
+		<h3>Restaurants:</h3>
+		<select>
+		  {% for restaurant in restaurants %}
+		  <option value="{{restaurant.name}}">{{restaurant.name}}</option>
+		  {% endfor %}
+		</select>
+
+		<h3>Activities:</h3>
+		<select>
+		  {% for activity in activities %}
+		  <option value="{{activity.name}}">{{activity.name}}</option>
+		  {% endfor %}
+		</select>
+	</div>
+
+{% endblock %}
+
+

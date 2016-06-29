@@ -1,0 +1,37 @@
+{
+  "name": "tripplanner",
+  "version": "1.0.0",
+  "description": "The best trip planner ever (Until next workshop)",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start:production": "node app.js",
+    "start:dev": "nodemon -e html,css,js app.js",
+    "start": "npm run start:dev",
+    "build-css": "node-sass -w -r assets/stylesheets -o public/stylesheets"
+  },
+  "keywords": [
+    "trip",
+    "planner",
+    "tripplanner",
+    "fun"
+  ],
+  "author": "GHA1606",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.6",
+    "bower": "^1.7.9",
+    "express": "^4.14.0",
+    "jquery": "^3.0.0",
+    "morgan": "^1.7.0",
+    "pg": "^6.0.1",
+    "pg-native": "^1.10.0",
+    "sequelize": "^3.23.4",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "node-sass": "^3.8.0"
+  }
+}

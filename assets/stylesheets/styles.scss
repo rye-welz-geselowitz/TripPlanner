@@ -1,0 +1,51 @@
+body{
+	box-sizing:border-box;
+	color:white;
+	background:green;
+
+}
+
+$pad: 20px;
+
+.options{
+	display:block;
+}
+
+select{
+	background:green;
+}
+
+#review{
+	padding:$pad/2;
+	margin-top:$pad/2;
+	margin-bottom:$pad/2;
+	background:pink;
+	color:black;
+}
+.panel{
+	padding:$pad/2;
+	margin:$pad/2;
+	background: red
+}
+#optionsContainer{
+	p{
+		padding-top:$pad/4;
+	}
+}
+
+.navbar-inverse {
+  background: $medium-brown;
+  border-color: darken($medium-brown, 10%);
+  .navbar-toggle .icon-bar {
+    background-color: $light-blue;
+  }
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
+  color: $light-blue;
+}
+
+#map {
+	height: 500px;
+	width: 100%;
+}

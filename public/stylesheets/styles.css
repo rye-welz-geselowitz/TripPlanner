@@ -1,0 +1,32 @@
+body {
+  box-sizing: border-box;
+  color: white;
+  background: green; }
+
+.options {
+  display: block; }
+
+select {
+  background: green; }
+
+#review {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: pink;
+  color: black; }
+
+.panel {
+  padding: 10px;
+  margin: 10px;
+  background: red; }
+
+#optionsContainer p {
+  padding-top: 5px; }
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
+  color: green; }
+
+#map {
+  height: 500px;
+  width: 100%; }
